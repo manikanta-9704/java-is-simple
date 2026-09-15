@@ -1,4 +1,4 @@
-package javaOOPS;
+package oops;
 interface Area{
 	void area();
 }

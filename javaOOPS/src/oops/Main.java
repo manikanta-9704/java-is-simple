@@ -1,4 +1,4 @@
-package javaOOPS;
+package oops;
 
 public class Main {
 

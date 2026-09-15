@@ -1,4 +1,4 @@
-package javaOOPS;
+package oops;
 
 /*interfaces contain
  * -->abstract methods

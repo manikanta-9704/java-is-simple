@@ -1,11 +1,20 @@
 package com.dsa;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class InsertionSort {
 
 	public static void main(String[] args) {
-		int[] arr= {4,5,6,3,1};
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter arraylength: ");
+		int n=sc.nextInt();
+		int[] arr= new int[n];
+		System.out.println("enter array elements: ");
+		for(int i=0;i<n;i++) {
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("unsorted array: " +Arrays.toString(arr));
 		int temp=0;
 		for(int i=1;i<arr.length;i++) {
 			temp=arr[i];
@@ -17,7 +26,7 @@ public class InsertionSort {
 			arr[j]=temp;
 		}
 		System.out.println("sorted array: "+Arrays.toString(arr));
-
+sc.close();
 	}
 
 }

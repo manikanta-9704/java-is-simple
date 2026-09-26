@@ -37,6 +37,7 @@ System.out.println("1sr forloop: "+count1);
 System.out.println("2nd forloop: "+count2);
 
 System.out.println("sorted array"+Arrays.toString(arr));
+sc.close();
 	}
 
 }
